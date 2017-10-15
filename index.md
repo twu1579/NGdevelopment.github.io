@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+This project is a python-based program that is to be used to help visualize data from imported files. And allow for antennas to be added via another imported file. The image files that we handle are mainly .obj and .stl files. We use .csv files for the importation of the additional components.
 
-You can use the [editor on GitHub](https://github.com/twu1579/ngdevelopment.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This program is available via our Git Hub repository (https://github.com/NG-Development/ngdevelopment). Just clone our project and you should be able to access our program. To make changes please have python available. If there are any bugs or problems make an issue via (https://github.com/NG-Development/ngdevelopment/issues).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+For testing purposes we would like to know if there are certain file formats that you would like that we currently are unable to handle. Please extensively use each button to see if there are any bugs we have yet to find.
 
-### Markdown
+**Using the Program**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+When the program is first executed you will be given a window with 3 buttons:
 
-```markdown
-Syntax highlighted code block
+_Import Plane Model_
 
-# Header 1
-## Header 2
-### Header 3
+This opens a new window that allows you to import 3D models.
 
-- Bulleted
-- List
+_Toggle Wireframe Mode_
 
-1. Numbered
-2. List
+This changes the view from the standard model to a wireframe model.
 
-**Bold** and _Italic_ and `Code` text
+_Import Antennas From CSV_
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/twu1579/ngdevelopment.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+This opens a window that lets you import antennas from a CSV.
